@@ -15,3 +15,8 @@ I only found a limited amount of working scrapers for Unsplash and they all reli
 5. It will ask for a foldername (Leaving it blank will use the search term from 1.)
 
 Existing images will not be overwritten and will not count as downloads.
+
+You will need "requests" and "tqdm" in your Python environment. To install theese run the following commands
+
+pip install requests
+pip install tqdm
