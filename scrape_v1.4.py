@@ -16,7 +16,8 @@ By Kallamamran
 
 print(logo)
 
-# Function to download images
+#----------------------------------------------------------------------------------
+# Function to download images with a progress bar
 def download_image(image_url, filename, current, total):
     try:
         # Send a GET request to the image URL
@@ -43,6 +44,7 @@ def download_image(image_url, filename, current, total):
     except requests.RequestException as e:
         print(f"Failed to download image {filename}. Error: {e}")
     return False
+#----------------------------------------------------------------------------------
 
 search_term = input('Enter the search term for the images: ')
 desired_image_count = int(input('Enter the number of images you want to download: '))
