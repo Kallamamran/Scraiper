@@ -18,5 +18,5 @@ Existing images will not be overwritten and will not count as downloads.
 
 You will need "requests" and "tqdm" in your Python environment. To install theese run the following commands
 
-pip install requests
+pip install requests<BR>
 pip install tqdm
