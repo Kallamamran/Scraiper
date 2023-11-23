@@ -1,4 +1,4 @@
-# Scraiper
+# Scraper
 My first unsplash scraper or really my first Python project ever, so be nice 😉
 
 Being my first code ever I have of course had "some" help creating it, so thank you GPT for your valueable input 😊
